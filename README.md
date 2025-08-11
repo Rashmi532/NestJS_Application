@@ -57,20 +57,20 @@ The application will start on **http://localhost:3000**.
 
 **Folder Structure**
 
-Project Root/
-  backend/
-    src/                # Your main backend source code (modules, controllers, services)
-    test/               # Backend tests
-    env.example         # Example environment variables for backend
-    nest-cli.json       # NestJS CLI config
-    package.json        # Backend dependencies & scripts
-    tsconfig.json       # Backend TypeScript config
-  frontend/
-    next/               # Main frontend app folder
-      pages/            # Next.js pages
-      public/           # Public static assets
-      styles/           # CSS / Tailwind styles (if any)
-      next.config.ts    # Next.js config
-      tsconfig.json     # Frontend TypeScript config
-    package.json        # Frontend dependencies & scripts
-  README.md             # Main project README
+echo "Project Root/"
+echo "├── backend/"
+echo "│   ├── src/                # Your main backend source code (modules, controllers, services)"
+echo "│   ├── test/               # Backend tests"
+echo "│   ├── env.example         # Example environment variables for backend"
+echo "│   ├── nest-cli.json       # NestJS CLI config"
+echo "│   ├── package.json        # Backend dependencies & scripts"
+echo "│   └── tsconfig.json       # Backend TypeScript config"
+echo "├── frontend/"
+echo "│   ├── next/               # Main frontend app folder"
+echo "│   │   ├── pages/          # Next.js pages"
+echo "│   │   ├── public/         # Public static assets"
+echo "│   │   ├── styles/         # CSS / Tailwind styles (if any)"
+echo "│   │   ├── next.config.ts  # Next.js config"
+echo "│   │   └── tsconfig.json   # Frontend TypeScript config"
+echo "│   ├── package.json        # Frontend dependencies & scripts"
+echo "└── README.md               # Main project README"
