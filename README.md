@@ -59,20 +59,18 @@ The application will start on **http://localhost:3000**.
 
 Project Root/
 ├── backend/
-│   ├── src/               # Your main backend source code (modules, controllers, services)
-│   ├── test/              # Backend tests
-│   ├── env.example        # Example environment variables for backend
-│   ├── nest-cli.json      # NestJS CLI config
-│   ├── package.json       # Backend dependencies & scripts
-│   ├── tsconfig.json      # Backend TypeScript config
-│
+│ ├── src/ # Your main backend source code (modules, controllers, services)
+│ ├── test/ # Backend tests
+│ ├── env.example # Example environment variables for backend
+│ ├── nest-cli.json # NestJS CLI config
+│ ├── package.json # Backend dependencies & scripts
+│ ├── tsconfig.json # Backend TypeScript config
 ├── frontend/
-│   ├── next/              # Main frontend app folder
-│   │   ├── pages/         # Next.js pages
-│   │   ├── public/        # Public static assets
-│   │   ├── styles/        # CSS / Tailwind styles (if any)
-│   │   ├── next.config.ts # Next.js config
-│   │   └── tsconfig.json  # Frontend TypeScript config
-│   ├── package.json       # Frontend dependencies & scripts
-│
-├──README.md
+│ ├── next/ # Main frontend app folder
+│ │ ├── pages/ # Next.js pages
+│ │ ├── public/ # Public static assets
+│ │ ├── styles/ # CSS / Tailwind styles (if any)
+│ │ ├── next.config.ts# Next.js config
+│ │ └── tsconfig.json # Frontend TypeScript config
+│ ├── package.json # Frontend dependencies & scripts
+└── README.md # Main project README
