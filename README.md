@@ -1,108 +1,80 @@
-NestJS Application
+# NestJS Application
+
 A robust and scalable backend application built with NestJS, designed to provide a solid foundation for modern web services.
 
-🚀 Project Overview
+## 🚀 Project Overview
+
 This project leverages NestJS, a progressive Node.js framework, to build a backend application that is modular, testable, and maintainable. It's ideal for developers looking to create enterprise-grade applications with a focus on scalability and performance.
 
-🛠️ Features
-Modular Architecture: Organized into modules for better maintainability.
+## 🛠️ Features
 
-TypeScript Support: Fully written in TypeScript for type safety.
+- Modular Architecture: Organized into modules for better maintainability.
+- TypeScript Support: Fully written in TypeScript for type safety.
+- Built-in Authentication: Includes JWT-based authentication for secure access.
+- Database Integration: Seamlessly integrates with databases (e.g., MySQL).
+- Testing: Comes with unit and integration tests to ensure code reliability.
+- Swagger Documentation: Auto-generated API documentation for easy reference.
 
-Built-in Authentication: Includes JWT-based authentication for secure access.
+## ⚙️ Technologies Used
 
-Database Integration: Seamlessly integrates with databases (e.g., PostgreSQL, MongoDB).
+- Backend Framework: NestJS
+- Programming Language: TypeScript
+- Database: MySQL
 
-Testing: Comes with unit and integration tests to ensure code reliability.
+## 📥 Installation
 
-Swagger Documentation: Auto-generated API documentation for easy reference.
+### Prerequisites
 
-⚙️ Technologies Used
-Backend Framework: NestJS
-
-Programming Language: TypeScript
-
-Database: [Specify your database, e.g., PostgreSQL, MongoDB]
-
-Authentication: JWT
-
-API Documentation: Swagger
-
-Testing: Jest
-
-📥 Installation
-Prerequisites
 Ensure you have the following installed:
 
-Node.js (v14 or higher)
+Node.js (v14 or higher), npm or yarn, and a database server (e.g., MySQL).
 
-npm or yarn
+### Steps
 
-A database server (e.g., PostgreSQL, MongoDB)
+1. Clone the repository:
 
-Steps
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/Rashmi532/NestJS_Application.git
+git clone https://github.com/Rashmi532/NestJS_Application.git  
 cd NestJS_Application
-Install dependencies:
 
-bash
-Copy
-Edit
+2. Install dependencies:
+
 npm install
-Set up environment variables:
 
-Copy .env.example to .env and configure the necessary environment variables, such as:
+3. Set up environment variables:
 
-env
-Copy
-Edit
-DATABASE_URL=your_database_url
+Copy `.env.example` to `.env` and configure the necessary environment variables, such as:  
+DATABASE_URL=your_database_url  
 JWT_SECRET=your_jwt_secret
-Run the application:
 
-bash
-Copy
-Edit
+4. Run the application:
+
 npm run start
+
 The application will start on http://localhost:3000.
 
-📚 API Documentation
-Once the application is running, you can access the Swagger UI at:
+## 📚 API Documentation
 
-bash
-Copy
-Edit
+Once the application is running, you can access the Swagger UI at:  
 http://localhost:3000/api
+
 This provides an interactive interface to explore and test the API endpoints.
 
-🧪 Running Tests
-To run the tests:
+## 🧪 Running Tests
 
-bash
-Copy
-Edit
+To run the tests:  
 npm run test
-For end-to-end tests:
 
-bash
-Copy
-Edit
+For end-to-end tests:  
 npm run test:e2e
-🗂️ Folder Structure
-bash
-Copy
-Edit
-NestJS_Application/
-├── src/
-│   ├── modules/
-│   ├── common/
-│   ├── main.ts
-├── test/
-├── .env
-├── package.json
 
+## 🗂️ Folder Structure
+
+NestJS_Application/  
+├── src/  
+│   ├── modules/  
+│   ├── common/  
+│   ├── main.ts  
+├── test/  
+├── .env  
+├── package.json  
+└── README.md
