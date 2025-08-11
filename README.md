@@ -73,4 +73,6 @@ echo "│   │   ├── styles/         # CSS / Tailwind styles (if any)"
 echo "│   │   ├── next.config.ts  # Next.js config"
 echo "│   │   └── tsconfig.json   # Frontend TypeScript config"
 echo "│   ├── package.json        # Frontend dependencies & scripts"
+echo "│   └── README.md           # Frontend-specific README (optional)"
 echo "└── README.md               # Main project README"
+
