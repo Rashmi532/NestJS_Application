@@ -59,11 +59,17 @@ The application will start on **http://localhost:3000**.
 
 echo "Project Root/"
 echo "├── backend/"
+
 echo "│   ├── src/                # Your main backend source code (modules, controllers, services)"
+
 echo "│   ├── test/               # Backend tests"
+
 echo "│   ├── env.example         # Example environment variables for backend"
+
 echo "│   ├── nest-cli.json       # NestJS CLI config"
+
 echo "│   ├── package.json        # Backend dependencies & scripts"
+
 echo "│   └── tsconfig.json       # Backend TypeScript config"
 echo "├── frontend/"
 echo "│   ├── next/               # Main frontend app folder"
