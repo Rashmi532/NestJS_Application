@@ -13,6 +13,7 @@ This project leverages NestJS, a progressive Node.js framework, to build a backe
 - Built-in Authentication: Includes JWT-based authentication for secure access.
 - Database Integration: Seamlessly integrates with databases (e.g., MySQL).
 - Testing: Comes with unit and integration tests to ensure code reliability.
+- Swagger Documentation: Auto-generated API documentation for easy reference.
 
 ## ⚙️ Technologies Used
 
@@ -30,15 +31,15 @@ Ensure you have the following installed: Node.js (v14 or higher), npm or yarn, a
 
 1. Clone the repository:
 
-   git clone https://github.com/Rashmi532/NestJS_Application.git
+   git clone https://github.com/Rashmi532/NestJS_Application.git  
    cd NestJS_Application
 
 2. Install dependencies, set up environment variables, and run the application:
 
-   npm install
-   cp .env.example .env
-   # Edit the .env file to configure the necessary environment variables:
-   # DATABASE_URL=your_database_url
+   npm install  
+   cp .env.example .env  
+   # Edit the .env file to configure the necessary environment variables:  
+   # DATABASE_URL=your_database_url  
    # JWT_SECRET=your_jwt_secret
 
    npm run start
@@ -47,12 +48,12 @@ The application will start on http://localhost:3000.
 
 ## 🗂️ Folder Structure
 
-NestJS_Application/
-├── src/
-│   ├── modules/
-│   ├── common/
-│   ├── main.ts
-├── test/
-├── .env
-├── package.json
+NestJS_Application/  
+├── src/  
+│   ├── modules/  
+│   ├── common/  
+│   ├── main.ts  
+├── test/  
+├── .env  
+├── package.json  
 └── README.md
