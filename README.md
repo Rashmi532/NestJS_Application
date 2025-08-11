@@ -13,7 +13,6 @@ This project leverages NestJS, a progressive Node.js framework, to build a backe
 - Built-in Authentication: Includes JWT-based authentication for secure access.
 - Database Integration: Seamlessly integrates with databases (e.g., MySQL).
 - Testing: Comes with unit and integration tests to ensure code reliability.
-- Swagger Documentation: Auto-generated API documentation for easy reference.
 
 ## ⚙️ Technologies Used
 
