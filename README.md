@@ -52,21 +52,6 @@ npm run start
 
 The application will start on http://localhost:3000.
 
-## 📚 API Documentation
-
-Once the application is running, you can access the Swagger UI at:  
-http://localhost:3000/api
-
-This provides an interactive interface to explore and test the API endpoints.
-
-## 🧪 Running Tests
-
-To run the tests:  
-npm run test
-
-For end-to-end tests:  
-npm run test:e2e
-
 ## 🗂️ Folder Structure
 
 NestJS_Application/  
